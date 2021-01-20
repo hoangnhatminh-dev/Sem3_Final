@@ -1,27 +1,23 @@
-# Final
+# HƯỚNG DẪN CHẠY PROJECT ANGULAR
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+Anh dùng Angular để làm nên mấy đứa cần cài 1 số thứ nhé - nhanh với nhẹ thôi
 
-## Development server
+1. Angular CLI: https://cli.angular.io/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2. Node.js: https://nodejs.org/en/ (Đứa nào dùng React khả năng có rồi)
 
-## Code scaffolding
+3. Visual Studio Code: có angular add-on nên chạy tốt
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+4. Đánh vào phần search trong extension của Visual Studio Code: mikael.angular-beastcode => tải về
 
-## Build
+Tải xong rồi down project về rồi làm theo hướng dẫn:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. Bật code của project lên ( dùng Visual Studio Code )
 
-## Running unit tests
+2. Bật terminal của studio code lên
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. npm i - Tải Node Package Mangement về để chạy code
 
-## Running end-to-end tests
+4. ng serve / npm start => localhost:4200
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
