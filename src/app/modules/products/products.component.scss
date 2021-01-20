@@ -1,0 +1,141 @@
+.products_banner{
+  background-image: url('https://www.astleyclarke.com/media/landing-pages/category-banners/resized/wide/nov-2020-bracelets.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  color: white;
+  h3{
+    margin-top: 20px;
+  }
+  ul{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+  }
+  li{
+    display: inline-flex;
+    margin-right: 10px;
+    font-size: 20px;
+    a{
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      &:hover{
+        border-bottom: solid 1px white;
+      }
+    }
+  }
+}
+
+.products_filter{
+  display: inline-flex;
+  padding: 20px;
+  border-bottom: solid 1px black;
+
+  ul{
+    text-align: start;
+    justify-content: start;
+  }
+
+  li{
+    display: inline-flex;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+
+  .products_filter-left{
+
+  }
+  .products_filter-right{
+    font-size: 16px;
+  }
+
+
+}
+
+.products_filter-show{
+  // margin-top: 20px;
+  .product{
+    margin-top: 40px;
+    a{
+      text-decoration: none;
+      color: black;
+      &:hover{
+        h3{
+          color: blue;
+        }
+        span{
+          color: green;
+        }
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        min-width: 30%;
+        max-height: 100%;
+        min-height: 30%;
+        border-radius: 10px;
+        &:hover{
+          box-shadow:
+          0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+          0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+          0 0.5px 10px rgba(0, 0, 0, 0.06),
+          0 0px 8.9px rgba(0, 0, 0, 0.072),
+          0 1.8px 1.4px rgba(0, 0, 0, 0.086),
+          0 5px 0px rgba(0, 0, 0, 0.12);
+          transition: 0.15s ease-in-out;
+        }
+
+      }
+      h3{
+        margin: 20px 0;
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: bold;
+        font-style: italic;
+
+      }
+      span{
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: bold;
+      }
+
+    }
+  }
+}
+
+.product_notfound{
+  padding: 16px;
+  border: solid 1.5px black;
+  h3{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  button{
+    border: solid 1px black;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px;
+    margin: 20px 0;
+    align-self: center;
+    &:hover{
+      background: black;
+      color: white;
+    }
+  }
+}
+
+.one-edge-shadow {
+  box-shadow: 0 8px 6px -6px black;
+}

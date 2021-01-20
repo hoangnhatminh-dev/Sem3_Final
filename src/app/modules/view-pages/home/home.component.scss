@@ -1,0 +1,275 @@
+.home_video{
+  height: 1000px;
+  a{
+    background-image: url('https://www.astleyclarke.com/media/cms/landing-pages/lockets/banner-celestial.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    text-decoration: none;
+    &:hover{
+      button{
+        background-color: white;
+        color: black;
+      }
+    }
+    h3{
+      font-size: 50px;
+      line-height: 1.5;
+      color: white;
+      text-decoration: none;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 25px;
+      line-height: 1.5;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 20px;
+      width: 50%;
+      padding: 10px;
+      text-align: center;
+      text-justify: distribute-all-lines;
+    }
+    button{
+      border: solid 1px white;
+      border-radius: 10px;
+      color: white;
+      font-size: 20px;
+      line-height: 1.5;
+      padding: 10px;
+      margin-bottom: 40px;
+      width: 15%;
+      align-self: center;
+    }
+  }
+}
+
+.home_accessories{
+  a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    img{
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      border-radius: 10px;
+      &:hover{
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 0.5px 10px rgba(0, 0, 0, 0.06),
+        0 0px 8.9px rgba(0, 0, 0, 0.072),
+        0 1.8px 1.4px rgba(0, 0, 0, 0.086),
+        0 5px 0px rgba(0, 0, 0, 0.12);
+        transition: 0.15s ease-in-out;
+      }
+    }
+  }
+
+  h3{
+    margin-top: 10px;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+  }
+}
+
+.home_gemstone{
+  a{
+    background-image: url('https://www.astleyclarke.com/media/cms/home/2021-01-08/gemstones-d.jpg?v=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    min-width: 100%;
+    width: 100%;
+    height: 1250px;
+    min-height: 100%;
+    text-decoration: none;
+    &:hover{
+      button{
+        background-color: white;
+        color: black;
+      }
+    }
+    h3{
+      font-size: 50px;
+      line-height: 1.5;
+      color: white;
+      text-decoration: none;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 30px;
+      line-height: 1.5;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 20px;
+      width: 50%;
+    }
+    button{
+      border: solid 1px white;
+      border-radius: 10px;
+      color: white;
+      font-size: 20px;
+      line-height: 1.5;
+      padding: 10px;
+      margin-bottom: 40px;
+      width: 15%;
+      align-self: center;
+    }
+  }
+}
+
+.home_bestseller{
+  margin: 40px 0;
+  a{
+    &.background-left{
+      background-image: url('https://www.astleyclarke.com/media/cms/home/2021-01-08/best-sellers-d.jpg');
+    }
+    &.background-right{
+      background-image: url('https://www.astleyclarke.com/media/cms/home/2021-01-08/diamonds-d.jpg');
+    }
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    max-width: 100%;
+    width: 600px;
+    height: 767px;
+    max-height: 100%;
+    text-decoration: none;
+    margin: 0 20px;
+    &:hover{
+      button{
+        background-color: white;
+        color: black;
+      }
+    }
+    h3{
+      font-size: 20px;
+      line-height: 1.5;
+      color: white;
+      text-decoration: none;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 16px;
+      line-height: 1.5;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 20px;
+      width: 50%;
+    }
+    button{
+      border: solid 1px white;
+      border-radius: 10px;
+      color: white;
+      font-size: 14px;
+      line-height: 1.5;
+      padding: 10px;
+      margin: 40px 0;
+      width: 25%;
+      align-self: center;
+    }
+  }
+}
+
+.home_public{
+  margin: 40px 0;
+  a{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+    text-decoration: none;
+    color: black;
+  }
+
+  .user{
+    margin: 40px 0;
+    a{
+      text-decoration: none;
+    }
+    .post {
+      position: relative;
+      // width: 50%;
+
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: 100%;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+
+      .content-position {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+
+        i{
+          font-size: 60px;
+          color: white;
+        }
+        button{
+          border: solid 1px white;
+          border-radius: 10px;
+          color: black;
+          font-size: 14px;
+          line-height: 1.5;
+          padding: 10px;
+
+        }
+      }
+
+      &:hover .image {
+        opacity: 0.3;
+      }
+
+      &:hover .content-position {
+        opacity: 1;
+      }
+
+      &:hover button{
+        background-color: white;
+      }
+    }
+  }
+
+}
+
+.home_brands{
+  margin: 40px 0;
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+  }
+  img{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 100%;
+    align-self: center;
+  }
+}
+
+.one-edge-shadow {
+  box-shadow: 0 8px 6px -6px black;
+}

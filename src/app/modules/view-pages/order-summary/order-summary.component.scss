@@ -1,0 +1,279 @@
+section {
+  margin-top: 40px;
+}
+
+h2{
+  border-bottom: solid 1px lightgray;
+  padding: 10px;
+}
+
+.order_summary {
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      margin: 10px 0;
+
+      input {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  table {
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+
+    thead {
+      th {
+        padding: 10px;
+        line-height: 1.5;
+      }
+    }
+
+    tbody {
+      tr {
+
+        td {
+          img {
+            width: 100%;
+            min-width: 40%;
+            min-height: 40%;
+          }
+        }
+      }
+    }
+
+    tfoot {
+      tr {
+
+        &.total_row {
+          line-height: 1.5;
+          font-weight: bold;
+          text-align: center;
+          border-top: solid 1px black;
+          border-bottom: solid 1px black;
+
+          td.total_row-price {
+            font-size: 24px;
+          }
+        }
+
+        td {
+          align-content: flex-end;
+        }
+      }
+    }
+  }
+}
+
+.order_form {
+  display: inline-flex;
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .form-group {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin: 10px 0;
+
+    label {
+      margin: 0 10px;
+      width: 20%;
+
+      &.checkbox {
+        width: auto;
+        text-transform: none;
+      }
+
+      strong {
+        font-weight: bold;
+      }
+
+      input {
+        margin-right: 10px;
+      }
+    }
+
+    .form-controls {
+      padding: 5px;
+      width: 50%;
+    }
+  }
+
+  .left {
+    padding: 20px;
+  }
+
+  .right {
+    padding: 20px;
+  }
+}
+
+.order_fee {
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .shipping {
+    table {
+      border-collapse: collapse;
+      border-spacing: 10px;
+
+      thead {
+        th {
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 1.5;
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            label {
+              input {
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .taxes {
+    ul{
+      list-style: none;
+      padding: 0;
+    }
+    li{
+      margin-top: 12px;
+      background-color:#f8f9fa;
+      label{
+        padding: 10px;
+        input{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.order_payment {
+  display: inline-flex;
+
+  .left {
+    padding: 20px;
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .form-group {
+      font-size: 14px;
+      text-transform: uppercase;
+      line-height: 1.5;
+      margin: 10px 0;
+
+      label {
+        margin: 0 10px;
+        width: 20%;
+
+        &.checkbox {
+          width: auto;
+          text-transform: none;
+        }
+
+        strong {
+          font-weight: bold;
+        }
+
+        input {
+          margin-right: 10px;
+        }
+      }
+
+      .form-controls {
+        padding: 5px;
+        width: 50%;
+      }
+    }
+
+    p{
+      margin: 20px 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    button {
+      border: solid 1px black;
+      border-radius: 10px;
+      color: black;
+      align-self: center;
+
+      &:hover{
+        background-color: black;
+        color: white;
+      }
+
+      &.checkout_button{
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 10px;
+
+        a{
+          text-decoration: none;
+          color: black;
+        }
+
+        &:hover{
+          a{
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    padding: 20px;
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    table {
+      td.title {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      tbody {
+        tr {}
+      }
+
+      tfoot {
+        border-top: solid 1px black;
+      }
+    }
+  }
+}
