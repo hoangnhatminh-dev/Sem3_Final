@@ -14,7 +14,7 @@ Tải xong rồi down project về rồi làm theo hướng dẫn:
 
 1. Bật code của project lên - chuột phải vào thẳng folder project rồi Open With Code ( dùng Visual Studio Code )
 
-2. Bật #terminal của studio code lên (nhớ để ý đường dẫn nhé, nó phải ở bên ngoài thư mục src )
+2. Bật terminal của studio code lên (nhớ để ý đường dẫn của terminal nhé, nó phải ở bên ngoài thư mục src )
 
 3. npm i - Tải Node Package Mangement về để chạy code
 
